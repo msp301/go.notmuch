@@ -35,7 +35,7 @@ func (ts *Tags) Next(t *Tag) bool {
 }
 
 // Return a slice of strings containing each element of ts.
-func (ts *Tags) slice() []string {
+func (ts *Tags) Slice() []string {
 	tag := &Tag{}
 	ret := []string{}
 	for ts.Next(tag) {
