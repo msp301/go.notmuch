@@ -1,3 +1,3 @@
-module github.com/zenhack/go.notmuch
+module github.com/msp301/go.notmuch
 
 go 1.12
